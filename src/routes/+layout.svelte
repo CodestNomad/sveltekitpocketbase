@@ -4,6 +4,7 @@
 	import User from '$lib/User.svelte';
 	import { env } from '$env/dynamic/public';
 	import '../app.css';
+	import { slide } from 'svelte/transition';
 
 	pbStore.set(env.PUBLIC_POCKETBASE_URL);
 
